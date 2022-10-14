@@ -1,0 +1,22 @@
+CREATE TABLE Product (
+    PId int NOT NULL AUTO_INCREMENT,
+    PName varchar(255) NOT NULL,
+    PDetail varchar(255),
+    PImage  varchar(255),
+    Mrp decimal(65, 2),
+    Price decimal(65, 2),
+    Category varchar(255),
+    Quantity int,
+    PRIMARY KEY (PId)
+);
+CREATE TABLE Cart (
+    SNo int NOT NULL AUTO_INCREMENT,
+    PName varchar(255) NOT NULL,
+    PDetail varchar(255),
+    PImage  varchar(255),
+    Mrp decimal(65, 2),
+    Price decimal(65, 2),
+    Category varchar(255),
+    Unit int,
+    PRIMARY KEY (SNo)
+);

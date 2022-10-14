@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+  }
+  td, th {
+    border: 1.5px solid white;
+    padding: 2;
+    height: 50px;
+  }
+  th{
+    background-color: #444444;
+    text-align: left;
+    color: white;
+  }
+  tr:nth-child(even) {background-color: #bcbcbc;}
+  tr:nth-child(odd) {background-color: #eeeeee;}
+  tr:nth-child(odd):hover{
+    background-color: #999999;
+  }
+  tr:nth-child(even):hover{
+    background-color: #999999;
+  }
+  .testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-xs-4 {
+    display: inline-block;
+    float: none;
+  }
+  .container{
+    max-width: 1100.98px;
+  }
+  

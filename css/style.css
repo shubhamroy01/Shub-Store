@@ -1,0 +1,39 @@
+.mobile{
+    height: 35vh;
+    width: auto;
+}
+.laptop{
+    height: 35vh;
+    width: auto;
+}
+.admin-img{
+    height: 40vh;
+    width: auto;
+}
+.old-prise{
+    text-decoration: line-through;
+    color: red;
+}
+.new-prise{
+    color: green;
+}
+.required{
+    color: red;
+    font-size: 15px;
+}
+.login{
+    width: 50%;
+}
+.fot-a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 786px) {
+    .laptop{
+        height: 35vh;
+        width: 90%;
+    }
+    .login{
+        width: 80%;
+    }
+  }
